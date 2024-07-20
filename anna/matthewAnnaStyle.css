@@ -1,12 +1,9 @@
-.matthew {
-	color: red;
+.names {
+	width: fit-content;
+	margin: 0 auto;
 }
 
-.anna {
-	color: green;
-}
-
-p {
+.name {
 	font-family: helvetica;
 	font-size: 200px;
 	text-align: center;
@@ -22,7 +19,19 @@ p {
  	}
 }
 
-p:hover { 
+.name:hover { 
 	position: relative;
 	animation: Rotate 1s linear infinite;
+}
+
+#matthew {
+	color: palevioletred;
+}
+
+#anna {
+	color: mediumpurple;
+}
+
+#zach {
+	color: deepskyblue;
 }
