@@ -1,4 +1,13 @@
-.names {
+body {
+	background-color: blue;
+}
+
+img {
+	border: 4px solid white;
+	width: 800px;
+}
+
+.content {
 	width: fit-content;
 	margin: 0 auto;
 }
@@ -7,6 +16,7 @@
 	font-family: helvetica;
 	font-size: 200px;
 	text-align: center;
+	text-stroke: 4px white;
 }
 
 @keyframes Rotate {
