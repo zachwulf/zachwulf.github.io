@@ -1,11 +1,7 @@
 body {
-    display: flex;
 	background: gold;
     font-size: 64px;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    margin: 0;
+    font-family: helvetica, sans-serif;
 }
 
 img {
@@ -19,7 +15,6 @@ img {
     animation: spin 2s infinite linear;
 }
 
-/* Define the keyframes for the animation */
 @keyframes spin {
     from {
         transform: rotate(0deg);
